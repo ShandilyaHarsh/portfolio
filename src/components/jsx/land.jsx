@@ -1,7 +1,7 @@
 
-import '../CSS/home.css'
+import '../CSS/land.css'
 
-function home(){
+function land(){
     return(
         <div>
         <div className="flex flex-col p-6  md:flex-row  gap-5 text-center sm:text-left md:w-full">
@@ -24,7 +24,7 @@ function home(){
                 <li>'18: Participated in Telescope making workshop representing School and made a telescope from scratch out of a PVC pipe.</li>
                 <li>'18: Qualified RMO being in top 5 percent of KVS all over India.</li>
                 <li>'19: Qualified JEE Mains,Advanced and Bitsat.</li>
-                <li>'20: A member of Bits FC team which was the champion of the 2nd division.</li>
+                <li>'20: A member of Bits FC team which was the champion of the 2nd division football league.</li>
                 <li className="text-gray-500">'21: Still going on, and I hope I achieve something worth writing about here?</li>
             </ul>
             </div>
@@ -48,4 +48,4 @@ function home(){
     );
 }
 
-export default home;
+export default land;
