@@ -1,10 +1,31 @@
 
 import '../CSS/land.css'
+import {Link,useHistory} from 'react-router-dom';
+import React, { useState } from 'react';
 
-function land(){
+
+function Land(){
+    let points = 0;
+    const keys = [70,76,65,83,72];
+    let history=useHistory();
+
+    const handleKeyPress =(event)=>{
+        
+        
+        
+          if(keys[points] === event.keyCode) {
+            points++;
+            if(points === 5) history.push("/home"); 
+          }
+          else points = 0; 
+        
+    }
+    const [Visible, setVisible] = useState(false);
+
     return(
-        <div>
-        <div className="flex flex-col p-6  md:flex-row  gap-5 text-center sm:text-left md:w-full">
+        <div id="myDiv" onKeyDown={handleKeyPress} tabIndex="0" >
+
+        <div  className="flex flex-col p-6  md:flex-row  gap-5 text-center sm:text-left md:w-full">
         
             <div className="md:w-1/2">
             <div className="css-typing " >
@@ -33,14 +54,19 @@ function land(){
             <p className="text-gray-500 text-sm place-content-end font-mono"> (If you are visiting this page, you have probably met him already)</p>
             <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Sadly, YES!</button>
             <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Thankfully, NO!</button>
+            <Link to="/home">go to home</Link>
             </div>
             
             
             
         </div>
         <div className=" text-center text-gray-100 py-6">
-        <h1 className="last text-2xl tracking-wide">Type GOCORONA to know more about me</h1>
+        
+        <button onClick={()=> setVisible(true)} className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Click to go to the WEBSITE </button>
+       { Visible?<div>
+        <h1 className="last text-2xl tracking-wide">Type flash</h1>
         <p className="text-gray-500 text-sm place-content-end font-mono sm-display-none"> stop finding the input box, type the word and let the passageway to the website unfold itself </p>
+        </div>:null}
 
         </div>
         </div>
@@ -48,4 +74,4 @@ function land(){
     );
 }
 
-export default land;
+export default Land;

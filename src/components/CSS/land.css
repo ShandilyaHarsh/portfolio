@@ -14,6 +14,10 @@
   background-color: white;
 }
 
+#myDiv {
+  outline: none;
+}
+
 ul li::before {
   content: '\2022';
   color: #fff;

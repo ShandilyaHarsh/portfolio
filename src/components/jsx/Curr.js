@@ -1,4 +1,4 @@
-import './components/CSS/curr.css'
+import '../CSS/curr.css'
 
 
 function curricular(){
