@@ -45,7 +45,7 @@ function Land(){
                 <li>'18: Participated in Telescope making workshop representing School and made a telescope from scratch out of a PVC pipe.</li>
                 <li>'18: Qualified RMO being in top 5 percent of KVS all over India.</li>
                 <li>'19: Qualified JEE Mains,Advanced and Bitsat.</li>
-                <li>'20: A member of Bits FC team which was the champion of the 2nd division football league.</li>
+                <li>'20: A member of Bits FC team which was the champion of the 2nd division football league, survived a pandemic and got addicted to code.</li>
                 <li className="text-gray-500">'21: Still going on, and I hope I achieve something worth writing about here?</li>
             </ul>
             </div>
@@ -54,7 +54,7 @@ function Land(){
             <p className="text-gray-500 text-sm place-content-end font-mono"> (If you are visiting this page, you have probably met him already)</p>
             <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Sadly, YES!</button>
             <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Thankfully, NO!</button>
-            <Link to="/home">go to home</Link>
+            
             </div>
             
             

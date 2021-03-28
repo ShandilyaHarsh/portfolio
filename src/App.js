@@ -2,7 +2,7 @@ import './App.css';
 import Land from './components/jsx/land.jsx';
 import Home from './components/jsx/home.jsx';
 import Project from './components/jsx/Projects';
-import Curr from './components/jsx/Curr';
+import Curricular from './components/jsx/Curr';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -17,7 +17,7 @@ function App() {
     <Route path="/" exact component={Land}/>
     <Route path="/home" component={Home}/>
     <Route path="/project" component={Project}/>
-    <Route path="/curricular" component={Curr}/>
+    <Route path="/curr" component={Curricular}/>
     </Switch>
     </div>
     </Router>
