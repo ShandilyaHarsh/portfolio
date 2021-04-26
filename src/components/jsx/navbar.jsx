@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function navbar(){
     
-    return(<nav className="flex items-center text-white bg-red-900 justify-around">
+    return(<nav className="flex items-center text-white navb justify-around">
     <h3>logo</h3>
     <ul className="flex items-center justify-around h-10 w-2/4  list-none">
         <Link to='/home'><li> home</li></Link>

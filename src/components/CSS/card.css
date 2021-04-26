@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  width: 275px  ;
+}
+
+.image {
+  display: block;
+  width:275px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #223852;
+  overflow: hidden;
+  width:275px;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.texti {
+  color:#fdf9fe;
+  font-family: Eurostyle Normal;
+  font-size: 26px;
+  position: absolute;
+  background-color: #223852;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn{
+    background-color: #223852;
+    font-family:Eurostyle Normal;
+    color:#fdf9fe;
+    border-color: #7610f7;
+    position:absolute;
+    bottom:10px;
+    right:73px;
+    
+
+    
+}
+.btn:hover{
+    background-color:#7610f7;
+}

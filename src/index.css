@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Eurostyle Normal";
+    src: local("Eurostyle Normal"),
+    url("./fonts/EuroStyle Normal.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Europa";
+    src: local("Europa"),
+    url("./fonts/europa.ttf") format("truetype");
+}

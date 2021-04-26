@@ -26,7 +26,7 @@ function Land(){
     return(
         <div id="myDiv" onKeyDown={handleKeyPress} tabIndex="0" >
 
-        <div  className="flex flex-col p-6  md:flex-row  gap-5 text-center sm:text-left md:w-full">
+        <div  className="flex flex-col p-6  md:flex-row  gap-5 text-center sm:text-left md:w-full sm:flex-col-reverse">
         
             <div className="md:w-1/2">
             <div className="css-typing " >
@@ -50,12 +50,15 @@ function Land(){
                 <li className="text-gray-500">'21: Still going on, and I hope I achieve something worth writing about here?</li>
             </ul>
             </div>
-             <div className="text-center place-items-center">
+             <div className="text-center">
             <h1 className="heading text-gray-100 text-4xl tracking-wide py-6">MEET HARSH SHANDILYA!</h1>
             <p className="text-gray-500 text-sm place-content-end font-mono"> (If you are visiting this page, you have probably met him already)</p>
             <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Sadly, YES!</button>
             <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">Thankfully, NO!</button>
-            <img src={photo} alt="harsh" className="rounded-full"/>
+            <br/>
+            <div className="inline-block align-middle" >
+            <img src={photo} alt="harsh" className="rounded-full "/>
+            </div>
             
             </div>
             
