@@ -5,6 +5,7 @@ import Sports from '../../images/sports.jpeg'
 import Acads from '../../images/co-curri.jpeg'
 import Landing from '../../images/home.jpg'
 import Coding from '../../images/coder.jpg'
+import {Link} from 'react-router-dom';
 
 
 
@@ -33,9 +34,21 @@ function home(){
     </div>
     
     <div className="flex flex-col whites md:flex-row card md:justify-between md:px-10  ">
-    <Cards  imgsrc={Sports} imtxt={"THE SPORTS ARC"} butno=" Achievements  " />
-    <Cards imgsrc={Coding} imtxt={"THE CODING ARC"} butno=" Projects "/>
-    <Cards imgsrc={Acads} imtxt={"THE ACADEMICS ARC"} butno=" Achievements"/>
+    <Cards  imgsrc={Sports} imtxt={"SPORTS ARC"} butno=" Achievements  " />
+    <div className="container md:m-5 m-auto my-10 md:w-auto w-20 ">
+
+  <img  src={Coding} alt="Avatar" className="image rounded-xl "/>
+  <div className="overlayshort  rounded-xl ">
+    <div className="texti">Coding Arc</div>
+    <div className="flex justify-center ">
+    <Link to="/curr" className="bg-transparent py-2 px-4 border btn rounded-full">
+  View Projects
+</Link>
+</div>
+
+  </div>
+</div>
+    <Cards imgsrc={Acads} imtxt={"ACADEMICS ARC"} butno=" Achievements"/>
 
     </div>
     <div className="flex flex-col lang md:px-10 py-10 langu "> <h1 className="m-auto">LANGUAGES FRAMEWORKS AND TECHNOLOGIES</h1></div>
