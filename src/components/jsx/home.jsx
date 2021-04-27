@@ -6,6 +6,7 @@ import Acads from '../../images/co-curri.jpeg'
 import Landing from '../../images/home.jpg'
 import Coding from '../../images/coder.jpg'
 import {Link} from 'react-router-dom';
+import Footer from './footer'
 
 
 
@@ -25,17 +26,18 @@ function home(){
     </div>
     <div className="purplec ">
         
-        <h1 className="font-">Hi, I'm Harsh. Pleasure seeing you here.</h1>
+        <h1 >Hi, I'm Harsh. Pleasure seeing you here.</h1>
         <p>I am an electronics major with a minor interest in Electronics. I started web development
          a year ago and am honing my skills in React,HTML,CSS & JS since then.
          I am also a competitive coder aiming to reach greater heights (and rating). Some or the other day I will graduate with 
         a minor in Comp Science and a major interest in it.</p>
         
+        
     </div>
     
     <div className="flex flex-col whites md:flex-row card md:justify-between md:px-10  ">
     <Cards  imgsrc={Sports} imtxt={"SPORTS ARC"} butno=" Achievements  " />
-    <div className="container md:m-5 m-auto my-10 md:w-auto w-20 ">
+    <div className="container h-40 md:m-5 md:mt-28 md:pt-2 m-auto my-10 md:w-auto w-20 ">
 
   <img  src={Coding} alt="Avatar" className="image rounded-xl "/>
   <div className="overlayshort  rounded-xl ">
@@ -54,7 +56,7 @@ function home(){
     <div className="flex flex-col lang md:px-10 py-10 langu "> <h1 className="m-auto">LANGUAGES FRAMEWORKS AND TECHNOLOGIES</h1></div>
     <div className="flex flex-col md:flex-row text-center justify-around md:px-10">
     <div className="flex flex-col techcard justify-center mx-4">
-    <i className="fab fa-react fontic text-black "></i>
+    <i className="fab fa-react fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">React</h3>
     <progress id="file" value="68" max="100" > 60% </progress>
@@ -63,7 +65,7 @@ function home(){
 
     </div>
     <div className="flex flex-col techcard justify-center mx-4">
-    <i className="fab fa-html5 fontic text-black "></i>
+    <i className="fab fa-html5 fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">HTML</h3>
     <progress id="file" value="80" max="100" > 80% </progress>
@@ -72,7 +74,7 @@ function home(){
 
     </div>
     <div className="flex flex-col techcard justify-center mx-4">
-    <i className="fab fa-css3-alt fontic text-black "></i>
+    <i className="fab fa-css3-alt fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">CSS</h3>
     <progress id="file" value="80" max="100" > 80% </progress>
@@ -81,7 +83,7 @@ function home(){
 
     </div>
     <div className="flex flex-col techcard justify-center mx-4">
-    <i className="fab fa-js-square fontic text-black "></i>
+    <i className="fab fa-js-square fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">JavaScript</h3>
     <progress id="file" value="54" max="100" > 54% </progress>
@@ -91,7 +93,7 @@ function home(){
     </div>
     <div className="flex  flex-col md:flex-row text-center justify-around md:px-10">
     <div className="flex flex-col sm:display-none techcard justify-center mx-4">
-    <i className="fab fa-bootstrap fontic text-black "></i>
+    <i className="fab fa-bootstrap fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">BootStrap</h3>
     <progress id="file" value="60" max="100" > 60% </progress>
@@ -100,7 +102,7 @@ function home(){
 
     </div>
     <div className="flex  flex-col techcard justify-center mx-4">
-    <i className="fas fa-database fontic text-black "></i>
+    <i className="fas fa-database fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">MongoDB</h3>
     <progress id="file" value="25" max="100" > 25% </progress>
@@ -109,7 +111,7 @@ function home(){
 
     </div>
     <div className="flex flex-col techcard justify-center mx-4">
-    <i className="fab fa-python fontic text-black "></i>
+    <i className="fab fa-python fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">Python</h3>
     <progress id="file" value="64" max="100" > 64% </progress>
@@ -118,7 +120,7 @@ function home(){
 
     </div>
     <div className="flex flex-col techcard justify-center mx-4">
-    <i className="fab fa-node fontic text-black "></i>
+    <i className="fab fa-node fontick text-black "></i>
     <div className="flex flex-col">
     <h3 className="texticon pb-8">NodeJS</h3>
     <progress id="file" value="30" max="100" > 30% </progress>
@@ -127,7 +129,10 @@ function home(){
 
     </div>
     </div>
+    
 
+    
+    <Footer/>
     </div>
         
 

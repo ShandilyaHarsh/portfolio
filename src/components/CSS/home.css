@@ -30,7 +30,7 @@
     font-family:EuropaN;
 }
 
-.fontic{
+.fontick{
     font-size: 50px;
     
 }
@@ -67,6 +67,7 @@
   
   
 }
+
 
 .container:hover .overlayshort {
   
@@ -136,4 +137,19 @@ progress[value]::-webkit-progress-value {
     text-align:center;
     font-size:20px;
     padding-bottom:260px;
+}
+
+.dpurple{
+    background-color: #141c3a;
+}
+
+.footerh2{
+    color:#FFFFFF;
+    font-size: 32px;
+    font-family: EuropaN;
+}
+.footerp{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: EuropaN;
 }
