@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {},
   variants: {
-    extend: {},
+    extend: {
+      spacing: {
+         '72': '10px',
+         '84': '20px',
+         '96': '30px',
+        }
+    },
   },
   plugins: [],
 }

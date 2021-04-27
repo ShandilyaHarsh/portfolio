@@ -1,6 +1,4 @@
-* {
-  background-color: #212122;
-}
+
 
 .heading {
   font-family: 'Bungee Shade', cursive;
@@ -16,9 +14,10 @@
 
 #myDiv {
   outline: none;
+  background-color: #212122;
 }
 
-ul li::before {
+#myDiv ul li::before {
   content: '\2022';
   color: #fff;
   font-weight: bold;

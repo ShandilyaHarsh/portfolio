@@ -1,3 +1,21 @@
 .navb{
-    background-color: #7610f7;
+    background-color:#fdf9fe;
+    color:#7610f7;
+    font-family:EurostileBold;
+    
 }
+
+
+.navb li {
+    
+
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.navb li:hover{
+    color:#7610f7;
+    text-decoration: underline;
+    text-decoration-color:#7610f7;
+    
+}
+

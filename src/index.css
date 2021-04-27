@@ -8,7 +8,19 @@
     url("./fonts/EuroStyle Normal.ttf") format("truetype");
 }
 @font-face {
-    font-family: "Europa";
-    src: local("Europa"),
-    url("./fonts/europa.ttf") format("truetype");
+    font-family: "EurostileBold";
+    src: local("EurostileBold"),
+    url("./fonts/EurostileBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Eurostile";
+    src: local("Eurostile"),
+    url("./fonts/eurostile.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "Europan";
+    src: local("Europan"),
+    url("./fonts/EuropaN.ttf") format("truetype");
 }

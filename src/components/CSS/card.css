@@ -5,7 +5,7 @@
 
 .image {
   display: block;
-  width:275px;
+  
   height: auto;
 }
 
@@ -30,7 +30,7 @@
 
 .texti {
   color:#fdf9fe;
-  font-family: Eurostyle Normal;
+  font-family: EuropaN;
   font-size: 26px;
   position: absolute;
   background-color: #223852;
@@ -43,17 +43,20 @@
 }
 
 .btn{
-    background-color: #223852;
-    font-family:Eurostyle Normal;
-    color:#fdf9fe;
+    background-color: #fdf9fe;
+    font-family:EuropaN;
+    color:#7610f7;
     border-color: #7610f7;
+    border-width: 2px;
     position:absolute;
     bottom:10px;
-    right:65px;
+    right:50px;
     
 
     
 }
 .btn:hover{
     background-color:#7610f7;
+    color:#fdf9fe;
+    font-family:EuropaN;
 }
