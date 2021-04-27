@@ -9,9 +9,9 @@ function Cards(props)
 {
 
     return(
-        <div className="container m-5  ">
+        <div className="container md:m-5 m-auto my-10 md:w-auto w-20 ">
 
-  <img src={props.imgsrc} alt="Avatar" className="image rounded-xl "/>
+  <img  src={props.imgsrc} alt="Avatar" className="image rounded-xl "/>
   <div className="overlay  rounded-xl ">
     <div className="texti">{props.imtxt}</div>
     <div className="flex justify-center ">
