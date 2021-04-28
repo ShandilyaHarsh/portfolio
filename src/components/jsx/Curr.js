@@ -27,9 +27,9 @@ function curricular(){
         
         <h1 >A little about these achievements</h1>
         <p className="lg:px-4">While these achievements amount to nothing, I felt a portfolio would be incomplete without achievements. Achievements are not
-        to prove you are the best, its about you celebrating small things. (For now, if there is nothing in it, you can add "Surviving a pandemic")
-        While we are always taught to know our shortcomings, its equally important to understand the good things about ourselves. A little positive 
-        step towards everything lets you take that one extra step towards what you are trying to achieve.
+        to prove you are the best, its about you celebrating little things. (For now, if there is nothing in it, you can add "Surviving a pandemic")
+        While we are always taught to know our shortcomings, its equally important to understand the good things about ourselves and others. So, Let's 
+        start appreciating the little things because a genuine compliment goes a long way.
         </p>
         <h2>Best of Luck y'all.</h2>
         
