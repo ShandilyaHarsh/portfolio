@@ -1,12 +1,34 @@
 import "../CSS/vermod.css"
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 export default function Modal(props) {
-  const [showModal, setShowModal] = React.useState(false);
+
+    const node = useRef();
+    const handleClick = e => {
+    if (node.current.contains(e.target)) {
+      // inside click
+      return;
+    }
+    // outside click
+    setShowModal(false);
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, []);
+
+
+
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
+    <div>
         
-        <div className="btmod pt-8 ">
+        <div className="btmod pt-8 ref={node}">
       <button
         className="btnmod rounded-full bg-transparent lg:py-2  px-2 border text-center ease-linear transition-all duration-150"
         type="button"
@@ -18,7 +40,7 @@ export default function Modal(props) {
       {showModal ? (
         <>
           <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+            className="justify-center items-center flex overflow-x-hidden overflow-y-auto mt-4 fixed inset-0 z-50 outline-none focus:outline-none"
           >
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
               {/*content*/}
@@ -48,6 +70,7 @@ export default function Modal(props) {
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
+      </div>
     </>
   );
 }
