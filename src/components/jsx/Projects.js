@@ -50,7 +50,7 @@ function project(){
           </p>
           <div className="flex lg:flex-row  flex-col text-center pb-8 justify:center md:justify-around">
             <span>
-              <Modal certex="Content Writing Internship Onboard" im={mod1} />
+              <Modal certex="Content Writing Internship Onboard" className="border border-black" im={mod1} />
             </span>
             <span>
               <Modal certex="LOR of Marketing Internship" im={mod2} />

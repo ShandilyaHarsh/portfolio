@@ -41,7 +41,7 @@ function curricular(){
     
     {certsp.map(({title,desc,ims},index)=>{
       return(<div key={index}>
-        <Certcard titl={title} des={desc} im={ims}/>
+        <Certcard titl={title} des={desc} im={ims} certex="View Certificate"/>
         </div>
 
       )

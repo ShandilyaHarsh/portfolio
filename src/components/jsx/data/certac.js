@@ -39,15 +39,16 @@ import im8 from "../../../images/certi/st8.jpg"
         desc:"Secured first position in School and a state rank of 124 in talent search exam for mathematics and science.",
         ims:im6
     },
-    {
-        title:"SIP National Prodigy",
-        desc:"Qualified and secured 3rd runner up position at National Abacus and Mental Arithmetic Test.",
-        ims:im7
-    },
+    
     {
         title:"National Science Olympiad",
         desc:"Secured first position in school and a national rank of 1529 in Mathematics and Science olympiad",
         ims:im8
+    },
+    {
+        title:"SIP National Prodigy",
+        desc:"Qualified and secured 3rd runner up position at National Abacus and Mental Arithmetic Test.",
+        ims:im7
     }
     
 ]

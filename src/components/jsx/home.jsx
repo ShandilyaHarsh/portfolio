@@ -45,7 +45,7 @@ function home() {
             <div className="texti">Coding Arc</div>
             <div className="flex justify-center ">
               <Link
-                to="/curr"
+                to="/proj"
                 className="bg-transparent py-2 px-4 border btn rounded-full"
               >
                 View Projects
