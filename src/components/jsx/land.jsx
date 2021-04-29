@@ -115,7 +115,7 @@ function Land() {
             <Link
             to="/home"
               
-              className="  text-gray-900 m-2.5 text-sm py-1 md:hidden inline font-mono px-1  rounded btnland"
+              className="  text-gray-900 m-2.5 text-sm py-1 md:hidden block font-mono px-1  rounded btnland"
             >
               Click to go to the Website{' '}
             </Link>
