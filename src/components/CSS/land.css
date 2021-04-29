@@ -12,6 +12,26 @@
   background-color: white;
 }
 
+.btnland{
+    
+    
+    color:#FFFFFF;
+    border-color: #7610f7;
+    border-width: 2px;
+    
+    
+    margin:auto;
+    text-align:center;
+    font-size: 20px;
+    
+}
+.btnland:hover{
+    background-color:#7610f7;
+    color:#fdf9fe;
+    
+}
+
+
 #myDiv {
   outline: none;
   background-color: #212122;

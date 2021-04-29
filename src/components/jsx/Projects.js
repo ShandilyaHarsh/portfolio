@@ -33,14 +33,14 @@ function project(){
               );
             })}
         </div>
-        <div className="purplecurr ">
+        <div className="purplecurr sm:my-16">
           <h1>A little about these projects and internships</h1>
           <p className="lg:px-4">
             When I started searching for internships, getting a content writing
             internship wasn't easy but I would go as far as to say its not even
             remotely close to how tough it is to get a web dev or app dev
-            internship. I have done a content writing internships and a
-            marketting internship but when I thought of doing a web development
+            internship. I have done a content writing internship and a
+            marketing internship but when I thought of doing a web development
             internship I was overwhelmed about where to start, how to start but
             all these things work out in the end. You just need to start, start
             making the application loading page or your website's home page and
@@ -52,7 +52,7 @@ function project(){
               <Modal certex="Content Writing Internship Onboard" im={mod1} />
             </span>
             <span>
-              <Modal certex="LOR of marketting Internship" im={mod2} />
+              <Modal certex="LOR of Marketing Internship" im={mod2} />
             </span>
           </div>
 
