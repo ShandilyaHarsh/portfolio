@@ -12,7 +12,7 @@ function curricular(){
     <Navbar/>
     <h1 className="headingi text-center">ACADEMIC ACHIEVEMENTS </h1>
     
-    <div className="grid grid-flow-row gap-10 mx-4  xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2  grid-cols-1 text-center justify-around md:px-10">
+    <div className="grid grid-flow-row gap-10 mx-4  xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2  grid-cols-1 text-center justify-around md:px-10">
     
     {certac.map(({title,desc,ims},index)=>{
       return(<div key={index}>

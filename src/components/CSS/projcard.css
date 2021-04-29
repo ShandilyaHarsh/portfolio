@@ -1,0 +1,21 @@
+.purpcard{
+    background-color: #141c3a;
+    font-family:EuropaN;
+    color:#FFFFFF;
+}
+
+.btnproj{
+    background-color: #141c3a;
+    font-family:EuropaN;
+    color:#FFFFFF;
+    border-color: #7610f7;
+    border-width: 2px;
+    font-family:EuropaN;
+    text-align:center;
+    
+}
+.btnproj:hover{
+    background-color:#7610f7;
+    color:#fdf9fe;
+    font-family:EuropaN;
+}

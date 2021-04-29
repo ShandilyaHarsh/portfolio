@@ -1,23 +1,20 @@
-.btmod{
-    position: relative;
+.btmod {
+  position: relative;
+}
+
+.btnmod {
+  background-color: #141c3a;
+  color: #ffffff;
+  border-color: #7610f7;
+  border-width: 2px;
+  font-family: EuropaN;
+
+  text-align: center;
+}
+.btnmod:hover {
+  background-color: #7610f7;
+  color: #fdf9fe;
+  font-family: EuropaN;
 }
 
 
-.btnmod{
-    
-    background-color: #141c3a;
-    color:#FFFFFF;
-    border-color: #7610f7;
-    border-width: 2px;
-    font-family:EuropaN;
-    
-    
-   
-    text-align:center;
-    
-}
-.btnmod:hover{
-    background-color:#7610f7;
-    color:#fdf9fe;
-    font-family:EuropaN;
-}

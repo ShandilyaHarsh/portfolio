@@ -8,11 +8,11 @@ function Certcard({titl,des,im})
         <div class="wrapper  antialiased ">
 <div>    
     
- <div class="relative px-4 mt-16  ">
-   <div class="certb p-6 rounded-lg shadow-lg">  
-    <h4 class="mt-1   leading-tight ">{titl}</h4>
+ <div className="relative px-4 mt-16  ">
+   <div className="certb p-6 rounded-lg shadow-lg">  
+    <h4 className="mt-1   leading-tight ">{titl}</h4>
  
-  <p class="mt-1">{des}
+  <p className="mt-1">{des}
     
   </p>
   <div className="flex flex-col justify-center">
