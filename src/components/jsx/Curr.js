@@ -1,9 +1,9 @@
 import '../CSS/curr.css'
 import Navbar from './navbar.jsx'
 import Certcard from './certcard.jsx'
-import certac from './certac'
+import certac from './data/certac'
 import Footer from './footer'
-import certsp from './certsp'
+import certsp from './data/certsp'
 
 
 function curricular(){
@@ -16,7 +16,7 @@ function curricular(){
     
     {certac.map(({title,desc,ims},index)=>{
       return(<div key={index}>
-        <Certcard titl={title} des={desc} im={ims}/>
+        <Certcard titl={title} des={desc} im={ims} certex="View Certificate"/>
         </div>
 
       )

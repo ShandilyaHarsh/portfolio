@@ -1,7 +1,7 @@
-import im1 from "../../images/certi/st1.jpg"
-import im2 from "../../images/certi/st2.jpg"
-import im3 from "../../images/certi/st3.jpg"
-import im4 from "../../images/certi/st4.jpg"
+import im1 from "../../../images/certi/st1.jpg"
+import im2 from "../../../images/certi/st2.jpg"
+import im3 from "../../../images/certi/st3.jpg"
+import im4 from "../../../images/certi/st4.jpg"
 
  
  

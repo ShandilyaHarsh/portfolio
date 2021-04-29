@@ -1,11 +1,11 @@
-import im1 from "../../images/certi/st1.jpg"
-import im2 from "../../images/certi/st2.jpg"
-import im3 from "../../images/certi/st3.jpg"
-import im4 from "../../images/certi/st4.jpg"
-import im5 from "../../images/certi/st5.jpg"
-import im6 from "../../images/certi/st6.jpg"
-import im7 from "../../images/certi/st7.jpg"
-import im8 from "../../images/certi/st8.jpg"
+import im1 from "../../../images/certi/st1.jpg"
+import im2 from "../../../images/certi/st2.jpg"
+import im3 from "../../../images/certi/st3.jpg"
+import im4 from "../../../images/certi/st4.jpg"
+import im5 from "../../../images/certi/st5.jpg"
+import im6 from "../../../images/certi/st6.jpg"
+import im7 from "../../../images/certi/st7.jpg"
+import im8 from "../../../images/certi/st8.jpg"
  
  
  const certac=[

@@ -30,7 +30,7 @@ export default function Modal(props) {
             type="button"
             onClick={() => setShowModal(true)}
           >
-            View Certificate
+            {props.certex}
           </button>
         </div>
         {showModal ? (

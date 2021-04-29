@@ -1,50 +1,37 @@
 import '../CSS/projcard.css';
-import proj1 from  '../../images/proj/proj1.jpg'
 import { Link } from 'react-router-dom';
 
-function Projcard() {
+function Projcard({im,txt1,subt1,subt2,btn1,btn2}) {
   return (
     <div className="purpcard md:mt-8 mt-4 lg:w-4/5 m-auto">
       <figure class="lg:flex   rounded-xl p-8 md:p-0">
         <img
-          class="  md:h-auto rounded-none p-2 mx-auto"
-          src={proj1}
+          class=" h-auto rounded-none p-2 mx-auto"
+          src={im}
           alt=""
           width="384"
           height="512"
         />
-        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+        <div className="pt-6  md:p-8 text-center md:text-left space-y-4">
           <blockquote>
             <p class="text-lg ">
-              This was my first attempt at web development by using HTML, CSS
-              and Bootstrap. Writing 1000 lines of styling and copying HTML code
-              over and over again for same components makes us value frameworks
-              like React and technologies like Tailwind even more. The purpose
-              of this website was to promote a book named "Hunting Houdini".
+              {txt1}
             </p>
           </blockquote>
-          <figcaption class="font-medium mb-4">
-            <div class="text-cyan-600">Author's Name: Yash Shandilya</div>
-            <div class="text-gray-500">Wattpad username: Bookbreath</div>
+          <figcaption class="font-medium pb-4 ">
+            <div class="text-cyan-600">{subt1}</div>
+            <div class="text-gray-500">{subt2}</div>
           </figcaption>
           <span>
             <Link
               to="/curr"
-              className="bg-transparent mr-4  px-4 border btnproj rounded-full text-center"
+              className="bg-transparent mr-4  px-4 py-2 border btnproj rounded-full text-center"
             >
               {' '}
-              Website link{' '}
+              {btn1}{' '}
             </Link>
           </span>
-          <span>
-            <Link
-              to="/curr"
-              className="bg-transparent mr-4   px-4 border btnproj rounded-full text-center"
-            >
-              {' '}
-              Author profile{' '}
-            </Link>
-          </span>
+          
         </div>
       </figure>
     </div>

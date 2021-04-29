@@ -7,7 +7,7 @@ import Landing from '../../images/home.jpg';
 import Coding from '../../images/coder.jpg';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
-import data from './techinfo';
+import data from './data/techinfo.js';
 
 function home() {
   return (

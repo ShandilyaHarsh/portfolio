@@ -1,7 +1,7 @@
 import  "../CSS/certcard.css"
 import Vermod from './vermod'
 
-function Certcard({titl,des,im})
+function Certcard({titl,des,im,certex})
 {
 
     return(
@@ -16,7 +16,7 @@ function Certcard({titl,des,im})
     
   </p>
   <div className="flex flex-col justify-center">
-  <Vermod im={im} />
+  <Vermod im={im} certex={certex} />
   </div>
   </div>
  </div>
