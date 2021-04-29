@@ -26,7 +26,7 @@ function Land() {
     >
       <div className="flex  p-6  md:flex-row  gap-5 text-center sm:text-left md:w-full flex-col-reverse">
         <div className="md:w-1/2">
-          <div className="css-typing ">
+          <div className="css-typing hidden md:block ">
             <h2>cout&#60;&#60;"hello there, I am Harsh"</h2>
             <h2>OOPS! looks like I forgot the semicolon.</h2>
             <h2> Don't worry, we are not gonna compile it anyway :")</h2>
