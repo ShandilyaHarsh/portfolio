@@ -6,6 +6,7 @@ import Footer from './footer'
 import Modal from './vermod'
 import mod1 from '../../images/proj/mod1.jpg'
 import mod2 from '../../images/proj/mod2.jpg';
+import {Link} from 'react-router-dom';
 
 
 function project(){
@@ -46,7 +47,7 @@ function project(){
             you would see that answers to "How to do" are much easier to find
             than "How to start".
           </p>
-          <div className="flex lg:flex-row flex-col text-center pb-8 justify:center md:justify-around">
+          <div className="flex lg:flex-row  flex-col text-center pb-8 justify:center md:justify-around">
             <span>
               <Modal certex="Content Writing Internship Onboard" im={mod1} />
             </span>
@@ -74,6 +75,48 @@ function project(){
                 </div>
               );
             })}
+        </div>
+        <div className="purpcard md:mt-8 mt-4 lg:w-4/5 m-auto">
+          <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+            <p class="text-lg ">
+              While I like developing solutions through websites for small scale
+              problems, I am also fascinated as to how algorithms and data
+              structures solve difficult logical problems with such ease. I am
+              into competitive coding(though a beginner), I like to learn
+              different algorithms and data structures and participate in coding
+              contests for the daily dose of competitive rush.{' '}
+            </p>
+            <div className="pt-6 md:px-none  flex-col md:flex-row flex text-center   md:justify-around">
+              <Link
+                to="/curr"
+                className="bg-transparent   px-4 py-2 my-2  mx-auto  border btnproj rounded-full text-center"
+              >
+                {' '}
+                Codechef Profile{' '}
+              </Link>
+              <Link
+                to="/curr"
+                className="bg-transparent  px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
+              >
+                {' '}
+                Codeforces Profile{' '}
+              </Link>
+              <Link
+                to="/curr"
+                className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
+              >
+                {' '}
+                Geeks for geeks Profile{' '}
+              </Link>
+              <Link
+                to="/curr"
+                className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
+              >
+                {' '}
+                InterviewBit Profile{' '}
+              </Link>
+            </div>
+          </div>
         </div>
         <Footer
           tex="Interested in improving these projects?"
