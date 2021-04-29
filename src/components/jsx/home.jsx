@@ -7,7 +7,7 @@ import Landing from '../../images/home.jpg';
 import Coding from '../../images/coder.jpg';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
-import data from './data/techinfo.js';
+
 
 function home() {
   return (
@@ -55,33 +55,7 @@ function home() {
         </div>
         <Cards imgsrc={Acads} imtxt={'ACADEMICS ARC'} butno=" Achievements" />
       </div>
-      <div className=" text-center lang md:px-10 py-10 langu ">
-        {' '}
-        <h1 className="m-auto">LANGUAGES FRAMEWORKS AND TECHNOLOGIES</h1>
-      </div>
-      <div className="grid grid-flow-row gap-10 mx-4  xl:grid-cols-4 ld:grid-cols-3 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 text-center justify-around md:px-10">
-        {data.map((element, index) => {
-          return (
-            <div
-              key={index}
-              className="flex flex-col   techcard justify-center "
-            >
-              <i className={`${element.icon} fontick pt-4`}></i>
-              <div className="flex flex-col">
-                <h3 className="texticon pb-8 ">{element.name}</h3>
-                <progress
-                  className="file w-full"
-                  value={element.percent.toString()}
-                  max="100"
-                >
-                  {' '}
-                  {element.percent}%{' '}
-                </progress>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      
 
       <Footer
         tex="Interested in Collaborating?"

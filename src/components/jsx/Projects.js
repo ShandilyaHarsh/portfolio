@@ -7,6 +7,7 @@ import Modal from './vermod'
 import mod1 from '../../images/proj/mod1.jpg'
 import mod2 from '../../images/proj/mod2.jpg';
 import {Link} from 'react-router-dom';
+import data from './data/techinfo';
 
 
 function project(){
@@ -39,13 +40,13 @@ function project(){
             When I started searching for internships, getting a content writing
             internship wasn't easy but I would go as far as to say its not even
             remotely close to how tough it is to get a web dev or app dev
-            internship. I have done a content writing internship and a
-            marketing internship but when I thought of doing a web development
-            internship I was overwhelmed about where to start, how to start but
-            all these things work out in the end. You just need to start, start
-            making the application loading page or your website's home page and
-            you would see that answers to "How to do" are much easier to find
-            than "How to start".
+            internship. I have done a content writing internship and a marketing
+            internship but when I thought of doing a web development internship
+            I was overwhelmed about where to start, how to start but all these
+            things work out in the end. You just need to start, start making the
+            application loading page or your website's home page and you would
+            see that answers to "How to do" are much easier to find than "How to
+            start".
           </p>
           <div className="flex lg:flex-row  flex-col text-center pb-8 justify:center md:justify-around">
             <span>
@@ -117,6 +118,33 @@ function project(){
               </Link>
             </div>
           </div>
+        </div>
+        <div className=" text-center lang md:px-10 py-10 langu ">
+          {' '}
+          <h1 className="m-auto">LANGUAGES FRAMEWORKS AND TECHNOLOGIES</h1>
+        </div>
+        <div className="grid grid-flow-row gap-10 mx-4  xl:grid-cols-4 ld:grid-cols-3 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 text-center justify-around md:px-10">
+          {data.map((element, index) => {
+            return (
+              <div
+                key={index}
+                className="flex flex-col   techcard justify-center "
+              >
+                <i className={`${element.icon} fontick pt-4`}></i>
+                <div className="flex flex-col">
+                  <h3 className="texticon pb-8 ">{element.name}</h3>
+                  <progress
+                    className="file w-full"
+                    value={element.percent.toString()}
+                    max="100"
+                  >
+                    {' '}
+                    {element.percent}%{' '}
+                  </progress>
+                </div>
+              </div>
+            );
+          })}
         </div>
         <Footer
           tex="Interested in improving these projects?"
