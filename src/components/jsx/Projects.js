@@ -32,7 +32,7 @@ function project() {
             );
           })}
       </div>
-      <div className="purplecurr sm:my-16">
+      <div className="purpleproj sm:my-16">
         <h1>A little about these projects and internships</h1>
         <p className="lg:px-4">
           When I started searching for internships, getting a content writing

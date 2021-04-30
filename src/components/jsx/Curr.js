@@ -25,7 +25,7 @@ function curricular() {
           );
         })}
       </div>
-      <div className="purplecurr ">
+      <div className="purpleproj ">
         <h1>A little about these achievements</h1>
         <p className="lg:px-4">
           While these achievements amount to nothing, I felt a portfolio would
@@ -37,14 +37,13 @@ function curricular() {
           appreciating the little things because a genuine compliment goes a
           long way.
         </p>
-        <h2>Best of Luck y'all.</h2>
+        <h2 >Best of Luck y'all!</h2>
       </div>
-      <h1 className="headingi text-center pt-16">SPORTS ACHIEVEMENTS </h1>
+      <div id="spor">
+        <h1 className="headingi text-center pt-16">SPORTS ACHIEVEMENTS </h1>
+      </div>
 
-      <div
-        id="spor"
-        className="grid grid-flow-row gap-10 mx-4  xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2  grid-cols-1 text-center justify-around md:px-10"
-      >
+      <div className="grid grid-flow-row gap-10 mx-4  xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2  grid-cols-1 text-center justify-around md:px-10">
         {certsp.map(({ title, desc, ims }, index) => {
           return (
             <div key={index}>

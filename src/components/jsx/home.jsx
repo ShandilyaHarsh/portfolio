@@ -8,6 +8,7 @@ import Coding from '../../images/coder.jpg';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
 
+
 function home() {
   return (
     <div className="homediv">
