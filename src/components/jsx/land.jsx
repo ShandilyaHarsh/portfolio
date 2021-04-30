@@ -2,7 +2,7 @@ import '../CSS/land.css';
 import { useHistory } from 'react-router-dom';
 import React, { useState } from 'react';
 import photo from '../../website.jpg';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Land() {
   let points = 0;
@@ -34,39 +34,45 @@ function Land() {
           <h1 className="heading text-gray-100 text-4xl tracking-wide py-6">
             Harsh who?
           </h1>
-          <ul className="listelem font-mono p-6">
-            <li>
+          <ul className="listelem flex flex-col-reverse font-mono p-6 ">
+            <li className="mb-2">
               '14-3rd runner up at National Abacus Competition held in
               Hyderabad.
             </li>
-            <li>
+            <li className="mb-2">
               '14-'16: Gold Medallist in International Maths Olympiad, National
               Science Olympiad at school level.
             </li>
-            <li>
+            <li className="mb-2">
               '14-'16: Represented KVS Bangalore 2 times in Nationals and KVS
               India once in SGFI.{' '}
             </li>
-            <li>'17: Scored a perfect 10 cgpa in class 10th.</li>
-            <li>'18: Represented KVS Bangalore in Oorja Cup, Football.</li>
-            <li>
+            <li className="mb-2">
+              '17: Scored a perfect 10 cgpa in class 10th.
+            </li>
+            <li className="mb-2">
+              '18: Represented KVS Bangalore in Oorja Cup, Football.
+            </li>
+            <li className="mb-2">
               '18: Captain of KVS Bangalore Kho Kho Under-19 Team which secured
               2nd position at Nationals, and represented Kvs India at SGFI.
             </li>
-            <li>
+            <li className="mb-2">
               '18: Participated in Telescope making workshop representing School
               and made a telescope from scratch out of a PVC pipe.
             </li>
-            <li>
+            <li className="mb-2">
               '18: Qualified RMO being in top 5 percent of KVS all over India.
             </li>
-            <li>'19: Qualified JEE Mains,Advanced and Bitsat.</li>
-            <li>
+            <li className="mb-2">
+              '19: Qualified JEE Mains,Advanced and Bitsat.
+            </li>
+            <li className="mb-2">
               '20: A member of Bits FC team which was the champion of the 2nd
               division football league, survived a pandemic and got addicted to
               code.
             </li>
-            <li className="text-gray-500">
+            <li className="text-gray-500 mb-2">
               '21: Still going on, and I hope I achieve something worth writing
               about here?
             </li>
@@ -113,8 +119,7 @@ function Land() {
               </div>
             ) : null}
             <Link
-            to="/home"
-              
+              to="/home"
               className="  text-gray-900 m-2.5 text-sm py-1 md:hidden block font-mono px-1  rounded btnland"
             >
               Click to go to the Website{' '}

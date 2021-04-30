@@ -2,7 +2,6 @@ import proj1 from '../../../images/proj/proj1.jpg';
 import proj2 from '../../../images/proj/proj2.jpg';
 import proj3 from '../../../images/proj/proj3.jpg';
 
-
 const projd = [
   {
     txt1:
@@ -10,7 +9,7 @@ const projd = [
     subt1: ` Author's Name: Yash Shandilya`,
     subt2: 'Wattpad username: Bookbreath',
     but1: 'Visit Website',
-    
+
     ims: proj1,
   },
   {
@@ -19,7 +18,7 @@ const projd = [
     subt1: ` Course Name: Microprocessors and Interfacing`,
     subt2: ' ',
     but1: 'Github Repository Link',
-    
+
     ims: proj2,
   },
   {
@@ -28,10 +27,9 @@ const projd = [
     subt1: ` `,
     subt2: '',
     but1: 'Go to Website',
-   
+
     ims: proj3,
   },
-  
 ];
 
 export default projd;

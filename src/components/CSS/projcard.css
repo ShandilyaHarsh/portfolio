@@ -1,21 +1,20 @@
-.purpcard{
-    background-color: #141c3a;
-    font-family:EuropaN;
-    color:#FFFFFF;
+.purpcard {
+  background-color: #141c3a;
+  font-family: EuropaN;
+  color: #ffffff;
 }
 
-.btnproj{
-    background-color: #141c3a;
-    font-family:EuropaN;
-    color:#FFFFFF;
-    border-color: #7610f7;
-    border-width: 2px;
-    font-family:EuropaN;
-    text-align:center;
-    
+.btnproj {
+  background-color: #141c3a;
+  font-family: EuropaN;
+  color: #ffffff;
+  border-color: #7610f7;
+  border-width: 2px;
+  font-family: EuropaN;
+  text-align: center;
 }
-.btnproj:hover{
-    background-color:#7610f7;
-    color:#fdf9fe;
-    font-family:EuropaN;
+.btnproj:hover {
+  background-color: #7610f7;
+  color: #fdf9fe;
+  font-family: EuropaN;
 }

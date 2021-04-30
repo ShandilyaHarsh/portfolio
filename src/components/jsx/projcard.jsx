@@ -1,7 +1,7 @@
 import '../CSS/projcard.css';
 import { Link } from 'react-router-dom';
 
-function Projcard({im,txt1,subt1,subt2,btn1,btn2}) {
+function Projcard({ im, txt1, subt1, subt2, btn1, btn2 }) {
   return (
     <div className="purpcard md:mt-8 mt-4 lg:w-4/5 m-auto">
       <figure class="lg:flex   rounded-xl p-8 md:p-0">
@@ -14,9 +14,7 @@ function Projcard({im,txt1,subt1,subt2,btn1,btn2}) {
         />
         <div className="pt-6  md:p-8 text-center md:text-left space-y-4">
           <blockquote>
-            <p class="text-lg ">
-              {txt1}
-            </p>
+            <p class="text-lg ">{txt1}</p>
           </blockquote>
           <figcaption class="font-medium pb-4 ">
             <div class="text-cyan-600">{subt1}</div>
@@ -31,7 +29,6 @@ function Projcard({im,txt1,subt1,subt2,btn1,btn2}) {
               {btn1}{' '}
             </Link>
           </span>
-          
         </div>
       </figure>
     </div>

@@ -1,9 +1,7 @@
 .container {
   position: relative;
-  width: 275px ;
+  width: 275px;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -12,11 +10,9 @@
   right: 0;
   background-color: #223852;
   overflow: hidden;
-  width:275px;
-  height:0;
-  transition: .5s ease;
-  
-  
+  width: 275px;
+  height: 0;
+  transition: 0.5s ease;
 }
 
 .container:hover .overlay {
@@ -25,7 +21,7 @@
 }
 
 .texti {
-  color:#fdf9fe;
+  color: #fdf9fe;
   font-family: EuropaN;
   font-size: 26px;
   position: absolute;
@@ -38,21 +34,18 @@
   text-align: center;
 }
 
-.btn{
-    background-color: #fdf9fe;
-    font-family:EuropaN;
-    color:#7610f7;
-    border-color: #7610f7;
-    border-width: 2px;
-    position:absolute;
-    bottom:10px;
-    margin: 0 auto;
-    
-
-    
+.btn {
+  background-color: #fdf9fe;
+  font-family: EuropaN;
+  color: #7610f7;
+  border-color: #7610f7;
+  border-width: 2px;
+  position: absolute;
+  bottom: 10px;
+  margin: 0 auto;
 }
-.btn:hover{
-    background-color:#7610f7;
-    color:#fdf9fe;
-    font-family:EuropaN;
+.btn:hover {
+  background-color: #7610f7;
+  color: #fdf9fe;
+  font-family: EuropaN;
 }

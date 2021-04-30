@@ -1,62 +1,54 @@
-.btnhome{
-    background-color: #141c3a;
-    font-family:EuropaN;
-    color:#FFFFFF;
-    border-color: #7610f7;
-    border-width: 2px;
-    font-family:EuropaN;
-    
-    margin:auto;
-    text-align:center;
-    
+.btnhome {
+  background-color: #141c3a;
+  font-family: EuropaN;
+  color: #ffffff;
+  border-color: #7610f7;
+  border-width: 2px;
+  font-family: EuropaN;
+
+  margin: auto;
+  text-align: center;
 }
-.btnhome:hover{
-    background-color:#7610f7;
-    color:#fdf9fe;
-    font-family:EuropaN;
+.btnhome:hover {
+  background-color: #7610f7;
+  color: #fdf9fe;
+  font-family: EuropaN;
 }
 
-.dpurple{
-    
-    background-color: #141c3a;
-    margin-bottom:-175px;
+.dpurple {
+  background-color: #141c3a;
+  margin-bottom: -175px;
 }
 
-.footerh2{
-    color:#FFFFFF;
-    font-size: 32px;
-    font-family: EuropaN;
+.footerh2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: EuropaN;
 }
-.footerp{
-    color:#FFFFFF;
-    font-size: 16px;
-    font-family: EuropaN;
-    
-}
-
-.footpurple{
-    margin-top:100px;
-    background-color:#7510f7;
-    padding-top: 150px;
-    
-    
-}
-.footpurple h2{
-    color:#FFFFFF;
-    font-size: 28px;
-    font-family: EuropaN;
-
+.footerp {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: EuropaN;
 }
 
-.fontic{
-    color:#FFFFFF;
-    border-color: #FFFFFF;
-    font-size:20px;
-    margin-left: 8px;
+.footpurple {
+  margin-top: 100px;
+  background-color: #7510f7;
+  padding-top: 150px;
 }
-.fontic:hover{
-    color:#7510f7;
-    background-color: #FFFFFF;
-    
+.footpurple h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: EuropaN;
 }
 
+.fontic {
+  color: #ffffff;
+  border-color: #ffffff;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.fontic:hover {
+  color: #7510f7;
+  background-color: #ffffff;
+}

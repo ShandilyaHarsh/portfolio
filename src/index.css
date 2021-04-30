@@ -3,24 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Eurostyle Normal";
-    src: local("Eurostyle Normal"),
-    url("./fonts/EuroStyle Normal.ttf") format("truetype");
+  font-family: 'Eurostyle Normal';
+  src: local('Eurostyle Normal'),
+    url('./fonts/EuroStyle Normal.ttf') format('truetype');
 }
 @font-face {
-    font-family: "EurostileBold";
-    src: local("EurostileBold"),
-    url("./fonts/EurostileBold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Eurostile";
-    src: local("Eurostile"),
-    url("./fonts/eurostile.TTF") format("truetype");
+  font-family: 'EurostileBold';
+  src: local('EurostileBold'),
+    url('./fonts/EurostileBold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Europan";
-    src: local("Europan"),
-    url("./fonts/EuropaN.ttf") format("truetype");
+  font-family: 'Eurostile';
+  src: local('Eurostile'), url('./fonts/eurostile.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Europan';
+  src: local('Europan'), url('./fonts/EuropaN.ttf') format('truetype');
 }

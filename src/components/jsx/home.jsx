@@ -8,7 +8,6 @@ import Coding from '../../images/coder.jpg';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
 
-
 function home() {
   return (
     <div className="homediv">
@@ -38,14 +37,19 @@ function home() {
       </div>
 
       <div className="flex flex-col whites md:flex-row card md:justify-between md:px-10  ">
-        <Cards imgsrc={Sports} imtxt={'SPORTS ARC'} butno=" Achievements  " />
+        <Cards
+          imgsrc={Sports}
+          imtxt={'SPORTS ARC'}
+          butno=" Achievements"
+          lin="/curr#spor"
+        />
         <div className="container h-40 md:m-5 md:mt-28 md:pt-2 m-auto my-10 md:w-auto w-20 ">
           <img src={Coding} alt="Avatar" className="image rounded-xl " />
           <div className="overlayshort  rounded-xl ">
             <div className="texti">Coding Arc</div>
             <div className="flex justify-center ">
               <Link
-                to="/proj"
+                to="/project"
                 className="bg-transparent py-2 px-4 border btn rounded-full"
               >
                 View Projects
@@ -53,9 +57,13 @@ function home() {
             </div>
           </div>
         </div>
-        <Cards imgsrc={Acads} imtxt={'ACADEMICS ARC'} butno=" Achievements" />
+        <Cards
+          imgsrc={Acads}
+          imtxt={'ACADEMICS ARC'}
+          butno=" Achievements"
+          lin="/curr"
+        />
       </div>
-      
 
       <Footer
         tex="Interested in Collaborating?"

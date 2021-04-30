@@ -34,7 +34,7 @@ function Footer(props) {
           <Link to="" className="  border rounded-full px-1.5 fontic">
             <i className="fab fa-linkedin-in "></i>
           </Link>
-          <Link to="/home"className="  border rounded-full px-1.5 fontic">
+          <Link to="/home" className="  border rounded-full px-1.5 fontic">
             <i className="fab fa-github "></i>
           </Link>
           <Link to="/home" className="  border rounded-full px-1.5 fontic">

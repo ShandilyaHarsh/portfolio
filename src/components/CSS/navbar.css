@@ -1,28 +1,21 @@
-.navb{
-    background-color:#fdf9fe;
-    color:#7610f7;
-    font-family:EurostileBold;
-    
+.navb {
+  background-color: #fdf9fe;
+  color: #7610f7;
+  font-family: EurostileBold;
 }
-
 
 .navb li {
-    
-
-    padding-right: 7px;
-    padding-left: 7px;
+  padding-right: 7px;
+  padding-left: 7px;
 }
-.navb li:hover{
-    color:#141c3a;
-    text-decoration: underline;
-    text-decoration-color:#7610f7;
-    
+.navb li:hover {
+  color: #141c3a;
+  text-decoration: underline;
+  text-decoration-color: #7610f7;
 }
 
-.navb .nav-pills .active{
-    color:#141c3a;
-    text-decoration: underline;
-    text-decoration-color:#7610f7;
-    
+.navb .nav-pills .active {
+  color: #141c3a;
+  text-decoration: underline;
+  text-decoration-color: #7610f7;
 }
-
