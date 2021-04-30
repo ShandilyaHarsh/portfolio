@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import React, { useState } from 'react';
 import Logo from "../../images/logo.jpg"
 
+
 function Navbar(){
 
      const [isOpen, setisOpen] =useState(false);
@@ -56,18 +57,24 @@ function Navbar(){
               </Link>
               <Link
                 to="/home"
+                activeClassName="active"
+                onlyActiveOnIndex
                 className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
               >
                 <li> HOME</li>
               </Link>
               <Link
                 to="/project"
+                activeClassName="active"
+                onlyActiveOnIndex
                 className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
               >
                 <li> PROJECT</li>
               </Link>
               <Link
                 to="/curr"
+                activeClassName="active"
+                onlyActiveOnIndex
                 className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
               >
                 <li> ACHIEVEMENTS</li>
@@ -76,36 +83,42 @@ function Navbar(){
           </div>
         </nav>
 
-      {isOpen? <div className="  w-screen flex py-2 px-6 justify-start items-center navb text-xl">
-          <ul className="block md:flex  list-none flex-row">
-            <Link
-              to="/"
-              className="hover:scale-110 transition text-black duration-500 ease-in-out transform hover:-translate-y-1"
-            >
-              <li>
-                <i class="fas fa-backward"></i> INTRO
-              </li>
-            </Link>
-            <Link
-              to="/home"
-              className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
-            >
-              <li> HOME</li>
-            </Link>
-            <Link
-              to="/project"
-              className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
-            >
-              <li> PROJECT</li>
-            </Link>
-            <Link
-              to="/curr"
-              className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
-            >
-              <li> ACHIEVEMENTS</li>
-            </Link>
-          </ul>
-        </div>:null}
+        {isOpen ? (
+          <div className="  w-screen flex py-2 px-6 justify-start items-center navb text-xl">
+            <ul className="block md:flex nav-pills  list-none flex-row">
+              <Link
+                exact
+                to="/"
+                className="hover:scale-110 transition text-black duration-500 ease-in-out transform hover:-translate-y-1"
+              >
+                <li>
+                  <i class="fas fa-backward"></i> INTRO
+                </li>
+              </Link>
+              <Link
+                exact
+                to="/home"
+                className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
+              >
+                <li> HOME</li>
+              </Link>
+              <Link
+                exact
+                to="/project"
+                className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
+              >
+                <li> PROJECT</li>
+              </Link>
+              <Link
+                exact
+                to="/curr"
+                className="hover:scale-110 transition duration-500 ease-in-out transform hover:-translate-y-1"
+              >
+                <li> ACHIEVEMENTS</li>
+              </Link>
+            </ul>
+          </div>
+        ) : null}
       </>
     );
 }

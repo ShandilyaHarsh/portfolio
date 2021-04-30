@@ -19,3 +19,10 @@
     
 }
 
+.navb .nav-pills .active{
+    color:#141c3a;
+    text-decoration: underline;
+    text-decoration-color:#7610f7;
+    
+}
+
