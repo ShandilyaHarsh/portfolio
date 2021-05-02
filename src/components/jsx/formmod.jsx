@@ -50,6 +50,7 @@ export default function Forml(props) {
                               type="text"
                               name="first_name"
                               id="first_name"
+                              netlify
                             />
                           </div>
                           <div className="field-group flex flex-col mb-4 md:w-1/2">
@@ -65,6 +66,7 @@ export default function Forml(props) {
                               type="text"
                               name="last_name"
                               id="last_name"
+                              netlify
                             />
                           </div>
                           <div className="field-group flex flex-col mb-4 md:w-full">
@@ -80,12 +82,14 @@ export default function Forml(props) {
                               type="email"
                               name="email"
                               id="email"
+                              netlify
                             />
                           </div>
                           <div className="field-group flex flex-col  md:w-full">
                             <label
                               className="field-label uppercase font-bold text-lg text-grey-darkest"
                               name="discussion"
+                              netlify
                             >
                               Topic of discussion
                             </label>
