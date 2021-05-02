@@ -1,6 +1,7 @@
 import '../CSS/footer.css';
 import { Link } from 'react-router-dom';
 import Footlogo from '../../images/footlogo.jpg';
+import Forml from './formmod';
 
 function Footer(props) {
   return (
@@ -12,13 +13,7 @@ function Footer(props) {
             {props.tex1}
             <br /> {props.tex2}.
           </p>
-          <Link
-            to="/curr"
-            className="bg-transparent py-2 mb-4 px-4 border btnhome rounded-full text-center"
-          >
-            {' '}
-            I'm in{' '}
-          </Link>
+          <Forml/>
         </div>
       </div>
       <div className="footpurple flex flex-col justify-center text-center">
