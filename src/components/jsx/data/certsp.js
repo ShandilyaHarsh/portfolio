@@ -1,32 +1,32 @@
-import im1 from '../../../images/certi/st1.jpg';
-import im2 from '../../../images/certi/st2.jpg';
-import im3 from '../../../images/certi/st3.jpg';
-import im4 from '../../../images/certi/st4.jpg';
+import sp1 from '../../../images/certi/sp1.jpg';
+import sp2 from '../../../images/certi/sp2.jpg';
+import sp3 from '../../../images/certi/sp3.jpg';
+import sp4 from '../../../images/certi/sp4.jpg';
 
 const certsp = [
   {
-    title: 'GFG Coding contest',
+    title: 'CAPFS Football Talent Hunt',
     desc:
-      'Secured a position in top 100 out of 7000 participants in coding round held by Geeks for Geeks.',
-    ims: im1,
+      'Selected to represent KVS bangalore out of 20 teams in Regionals tournament.',
+    ims: sp1,
   },
   {
-    title: 'Telescope Making Workshop',
+    title: 'Individual Championship',
     desc:
-      ' One among the 40 students selected from 20 schools  to construct a 5 inch telescope from scratch. ',
-    ims: im2,
+      'Awarded the Individual Championship at school level twice for getting most medals in athletics. ',
+    ims: sp2,
   },
   {
-    title: 'Subroto memorial Scholarship',
+    title: 'National Games tournament',
     desc:
-      'Awarded scholarship for excellence in academics in class 11th by Indian Air Force Association. ',
-    ims: im3,
+      'Represented Kendriya Vidyalaya Bangalore region 4 times in Kho Kho at National tournament.',
+    ims: sp4,
   },
   {
-    title: 'Certificate of Merit',
+    title: 'School Games Federation Of India',
     desc:
-      'Secured a perfect 10 cgpa in class 10 in All India Secondary School Examination in year 2017.',
-    ims: im4,
+      'Represented Kendriya Vidyalaya Sangathan India 2 times at SGFI  tournament. ',
+    ims: sp3,
   },
 ];
 

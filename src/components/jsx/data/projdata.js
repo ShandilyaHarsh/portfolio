@@ -9,7 +9,7 @@ const projd = [
     subt1: ` Author's Name: Yash Shandilya`,
     subt2: 'Wattpad username: Bookbreath',
     but1: 'Visit Website',
-
+    wlink: 'https://shandilya.netlify.app/',
     ims: proj1,
   },
   {
@@ -18,7 +18,7 @@ const projd = [
     subt1: ` Course Name: Microprocessors and Interfacing`,
     subt2: ' ',
     but1: 'Github Repository Link',
-
+    wlink: 'https://github.com/aakankshabaijal/Elevator-Control-MuP-2021',
     ims: proj2,
   },
   {
@@ -27,7 +27,7 @@ const projd = [
     subt1: ` `,
     subt2: '',
     but1: 'Go to Website',
-
+    wlink: 'https://help-india.netlify.app/',
     ims: proj3,
   },
 ];

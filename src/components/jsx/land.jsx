@@ -16,6 +16,8 @@ function Land() {
     } else points = 0;
   };
   const [Visible, setVisible] = useState(false);
+  const [Vis1, setVis1] = useState(false);
+  const [Vis2, setVis2] = useState(false);
 
   return (
     <div
@@ -86,12 +88,35 @@ function Land() {
             {' '}
             (If you are visiting this page, you have probably met him already)
           </p>
-          <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">
+          <button
+            onClick={() => setVis1(!Vis1)& setVis2(false)}
+            className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns"
+          >
             Sadly, YES!
           </button>
-          <button className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns">
+
+          <button
+            onClick={() => setVis2(!Vis2) &setVis1(false)}
+            className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns"
+          >
             Thankfully, NO!
           </button>
+          {Vis1 ? (
+            <div>
+              <p className="text-gray-500 text-sm place-content-end font-mono sm-display-none">
+                {' '}
+                Not too late to unfriend someone, is it?{' '}
+              </p>
+            </div>
+          ) : null}
+          {Vis2 ? (
+            <div>
+              <p className="text-gray-500 text-sm place-content-end font-mono sm-display-none">
+                {' '}
+                Let me assure you, you are not missing anything.{' '}
+              </p>
+            </div>
+          ) : null}
           <br />
           <div className=" flex flex-row justify-center ">
             <img

@@ -1,7 +1,7 @@
 import '../CSS/projcard.css';
 import { Link } from 'react-router-dom';
 
-function Projcard({ im, txt1, subt1, subt2, btn1, btn2 }) {
+function Projcard({ wlin,im, txt1, subt1, subt2, btn1, btn2 }) {
   return (
     <div className="purpcard md:mt-8 mt-4 lg:w-4/5 m-auto">
       <figure class="lg:flex   rounded-xl p-8 md:p-0">
@@ -22,7 +22,7 @@ function Projcard({ im, txt1, subt1, subt2, btn1, btn2 }) {
           </figcaption>
           <span>
             <Link
-              to="/curr"
+              to={wlin}
               className="bg-transparent mr-4  px-4 py-2 border btnproj rounded-full text-center"
             >
               {' '}

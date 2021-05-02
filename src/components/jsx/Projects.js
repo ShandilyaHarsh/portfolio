@@ -17,7 +17,7 @@ function project() {
       <div className="  justify-around ">
         {projdata
           .filter((item, idx) => idx < 2)
-          .map(({ txt1, subt1, subt2, but1, but2, ims }, index) => {
+          .map(({ wlink, txt1, subt1, subt2, but1, but2, ims }, index) => {
             return (
               <div key={index}>
                 <Projcard
@@ -27,6 +27,7 @@ function project() {
                   btn1={but1}
                   btn2={but2}
                   im={ims}
+                  wlin={wlink}
                 />
               </div>
             );
@@ -91,28 +92,28 @@ function project() {
           </p>
           <div className="pt-6 md:px-none  flex-col md:flex-row flex text-center   md:justify-around">
             <Link
-              to="/curr"
+              to="https://www.codechef.com/users/harsh_0710"
               className="bg-transparent   px-4 py-2 my-2  mx-auto  border btnproj rounded-full text-center"
             >
               {' '}
               Codechef Profile{' '}
             </Link>
             <Link
-              to="/curr"
+              to="https://codeforces.com/profile/ShandilyaHarsh"
               className="bg-transparent  px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
               {' '}
               Codeforces Profile{' '}
             </Link>
             <Link
-              to="/curr"
+              to="https://auth.geeksforgeeks.org/user/shandilyaharsh2001/practice/"
               className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
               {' '}
               Geeks for geeks Profile{' '}
             </Link>
             <Link
-              to="/curr"
+              to="https://www.interviewbit.com/profile/Shandilya-Harsh"
               className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
               {' '}
