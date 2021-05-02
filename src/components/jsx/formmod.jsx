@@ -2,10 +2,6 @@ import '../CSS/vermod.css';
 import React, { useState } from 'react';
 
 export default function Forml(props) {
-  
-
-  
-
   const [showModal, setShowModal] = useState(false);
   return (
     <>
@@ -38,12 +34,14 @@ export default function Forml(props) {
                           className="mb-4 md:flex md:flex-wrap md:justify-between"
                           data-netlify="true"
                           method="post"
+                          name="data"
                           netlify
                         >
                           <div className="field-group flex flex-col mb-4 md:w-1/2">
                             <label
                               className="field-label uppercase font-bold text-lg text-grey-darkest mb-2"
                               for="first_name"
+                              name="first"
                             >
                               First Name
                             </label>
@@ -58,6 +56,7 @@ export default function Forml(props) {
                             <label
                               className="field-label uppercase font-bold text-lg text-grey-darkest mb-2  md:ml-2"
                               for="last_name"
+                              name="last"
                             >
                               Last Name
                             </label>
@@ -72,6 +71,7 @@ export default function Forml(props) {
                             <label
                               className="field-label uppercase font-bold text-lg text-grey-darkest"
                               for="email"
+                              name="email"
                             >
                               Email
                             </label>
@@ -83,7 +83,10 @@ export default function Forml(props) {
                             />
                           </div>
                           <div className="field-group flex flex-col  md:w-full">
-                            <label className="field-label uppercase font-bold text-lg text-grey-darkest">
+                            <label
+                              className="field-label uppercase font-bold text-lg text-grey-darkest"
+                              name="discussion"
+                            >
                               Topic of discussion
                             </label>
                             <input
