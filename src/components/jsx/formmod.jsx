@@ -6,9 +6,9 @@ export default function Forml(props) {
   return (
     <>
       <div>
-        <div className="btmod pt-8">
+        <div className="btmod ">
           <button
-            className="btnmod rounded-full bg-transparent lg:py-2  px-2 border text-center ease-linear transition-all duration-150"
+            className=" py-2 mb-4 px-4 border btnhome rounded-full bg-transparent   text-center ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModal(true)}
           >

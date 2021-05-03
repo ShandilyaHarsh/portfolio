@@ -5,9 +5,9 @@
   border-color: #7610f7;
   border-width: 2px;
   font-family: EuropaN;
-
-  margin: auto;
   text-align: center;
+  margin-bottom: 2px;
+  
 }
 .btnhome:hover {
   background-color: #7610f7;

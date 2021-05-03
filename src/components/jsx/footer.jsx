@@ -9,11 +9,13 @@ function Footer(props) {
       <div className="flex justify-center ">
         <div className="dpurple flex flex-col   lg:flex-row justify-center m-auto rounded-full py-10 w-4/5  mt-20">
           <h2 className=" footerh2 px-20 text-center">{props.tex}</h2>
-          <p className=" footerp px-4 py-2  text-center">
+          <p className=" footerp px-4 py-2   text-center">
             {props.tex1}
             <br /> {props.tex2}.
           </p>
-          <Forml/>
+          <div className="flex flex-col text-center justify-center items-center mx-auto">
+            <Forml />
+          </div>
         </div>
       </div>
       <div className="footpurple flex flex-col justify-center text-center">
@@ -44,7 +46,6 @@ function Footer(props) {
           >
             <i className="fab fa-github "></i>
           </Link>
-          
         </div>
         <h2 className="pb-4 text-md last">
           Made with <i className="fas fa-heart "></i>{' '}
