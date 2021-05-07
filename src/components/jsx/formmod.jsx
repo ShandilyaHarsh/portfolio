@@ -73,7 +73,6 @@ export default function Forml(props) {
                             <label
                               className="field-label uppercase font-bold text-lg text-grey-darkest"
                               for="email"
-                              name="email"
                             >
                               Email
                             </label>
@@ -105,7 +104,7 @@ export default function Forml(props) {
                               type="submit"
                               onClick={() => setShowModal(false)}
                             >
-                              Close
+                              Submit
                             </button>
                           </div>
                         </form>
