@@ -91,34 +91,34 @@ function project() {
             contests for the daily dose of competitive rush.{' '}
           </p>
           <div className="pt-6 md:px-none  flex-col md:flex-row flex text-center   md:justify-around">
-            <Link
-              to="https://www.codechef.com/users/harsh_0710"
+            <a
+              href="https://www.codechef.com/users/harsh_0710"
               className="bg-transparent   px-4 py-2 my-2  mx-auto  border btnproj rounded-full text-center"
             >
               {' '}
               Codechef Profile{' '}
-            </Link>
-            <Link
-              to="https://codeforces.com/profile/ShandilyaHarsh"
+            </a>
+            <a
+              href="https://codeforces.com/profile/ShandilyaHarsh"
               className="bg-transparent  px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
               {' '}
               Codeforces Profile{' '}
-            </Link>
-            <Link
-              to="https://auth.geeksforgeeks.org/user/shandilyaharsh2001/practice/"
+            </a>
+            <a
+              href="https://auth.geeksforgeeks.org/user/shandilyaharsh2001/practice/"
               className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
               {' '}
               Geeks for geeks Profile{' '}
-            </Link>
-            <Link
-              to="https://www.interviewbit.com/profile/Shandilya-Harsh"
+            </a>
+            <a
+              href="https://www.interviewbit.com/profile/Shandilya-Harsh"
               className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
               {' '}
               InterviewBit Profile{' '}
-            </Link>
+            </a>
           </div>
         </div>
       </div>

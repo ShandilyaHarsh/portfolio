@@ -21,13 +21,13 @@ function Projcard({ wlin,im, txt1, subt1, subt2, btn1, btn2 }) {
             <div class="text-gray-500">{subt2}</div>
           </figcaption>
           <span>
-            <Link
-              to={wlin}
+            <a
+              href={wlin}
               className="bg-transparent mr-4  px-4 py-2 border btnproj rounded-full text-center"
             >
               {' '}
               {btn1}{' '}
-            </Link>
+            </a>
           </span>
         </div>
       </figure>
