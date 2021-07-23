@@ -6,7 +6,7 @@ import Footer from './footer';
 import Modal from './vermod';
 import mod1 from '../../images/proj/mod1.jpg';
 import mod2 from '../../images/proj/mod2.jpg';
-import { Link } from 'react-router-dom';
+
 import data from './data/techinfo';
 
 function project() {

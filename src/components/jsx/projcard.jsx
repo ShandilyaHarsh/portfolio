@@ -1,5 +1,5 @@
 import '../CSS/projcard.css';
-import { Link } from 'react-router-dom';
+
 
 function Projcard({ wlin,im, txt1, subt1, subt2, btn1, btn2 }) {
   return (
