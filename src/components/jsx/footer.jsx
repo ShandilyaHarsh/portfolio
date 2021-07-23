@@ -1,5 +1,5 @@
 import '../CSS/footer.css';
-import { Link } from 'react-router-dom';
+
 import Footlogo from '../../images/footlogo.jpg';
 import Forml from './formmod';
 
