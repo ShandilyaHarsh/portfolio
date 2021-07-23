@@ -50,10 +50,13 @@ function Land() {
               India once in SGFI.{' '}
             </li>
             <li className="mb-2">
-              '17: Scored a perfect 10 cgpa in class 10th.
+              '17: Scored a perfect 10 cgpa in class 10th, secured gold medal at
+              school level and top 10 percentile globally in mental ability
+              olympiad.
             </li>
             <li className="mb-2">
-              '18: Represented KVS Bangalore in Oorja Cup, Football.
+              '18: Represented KVS Bangalore in Oorja Cup, Football against the
+              likes of Bengaluru FC, Sports authority of India.
             </li>
             <li className="mb-2">
               '18: Captain of KVS Bangalore Kho Kho Under-19 Team which secured
@@ -64,15 +67,15 @@ function Land() {
               and made a telescope from scratch out of a PVC pipe.
             </li>
             <li className="mb-2">
-              '18: Qualified RMO being in top 5 percent of KVS all over India.
+              '18: Qualified RMO being in top 2 percent of KVS all over India.
             </li>
             <li className="mb-2">
               '19: Qualified JEE Mains,Advanced and Bitsat.
             </li>
             <li className="mb-2">
               '20: A member of Bits FC team which was the champion of the 2nd
-              division football league, survived a pandemic and got addicted to
-              code.
+              division football league, survived a pandemic, learnt web
+              languages and frameworks and got addicted to code.
             </li>
             <li className="text-gray-500 mb-2">
               '21: Still going on, and I hope I achieve something worth writing
@@ -89,14 +92,14 @@ function Land() {
             (If you are visiting this page, you have probably met him already)
           </p>
           <button
-            onClick={() => setVis1(!Vis1)& setVis2(false)}
+            onClick={() => setVis1(!Vis1) & setVis2(false)}
             className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns"
           >
             Sadly, YES!
           </button>
 
           <button
-            onClick={() => setVis2(!Vis2) &setVis1(false)}
+            onClick={() => setVis2(!Vis2) & setVis1(false)}
             className="  text-gray-900 m-2.5 text-sm py-1 font-mono px-1 rounded btns"
           >
             Thankfully, NO!
