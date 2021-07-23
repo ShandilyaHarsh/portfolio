@@ -58,9 +58,9 @@ function curricular() {
         })}
       </div>
       <Footer
-        tex="Interested in discussing football?"
+        tex="Interested in discussing chess?"
         tex1="Let's talk about why"
-        tex2=" Real Madrid is the best"
+        tex2=" Anish Giri is the best"
       />
     </div>
   );

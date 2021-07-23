@@ -25,9 +25,9 @@ const data = [
     percent: 60,
   },
   {
-    icon: 'fas fa-database',
-    name: 'MongoDB',
-    percent: 25,
+    icon: 'fas fa-copyright',
+    name: 'C++',
+    percent: 95,
   },
   {
     icon: 'fab fa-python',
