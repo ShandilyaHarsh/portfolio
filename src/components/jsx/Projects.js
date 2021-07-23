@@ -92,6 +92,8 @@ function project() {
           </p>
           <div className="pt-6 md:px-none  flex-col md:flex-row flex text-center   md:justify-around">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.codechef.com/users/harsh_0710"
               className="bg-transparent   px-4 py-2 my-2  mx-auto  border btnproj rounded-full text-center"
             >
@@ -99,6 +101,8 @@ function project() {
               Codechef Profile{' '}
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://codeforces.com/profile/ShandilyaHarsh"
               className="bg-transparent  px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
@@ -106,6 +110,8 @@ function project() {
               Codeforces Profile{' '}
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://auth.geeksforgeeks.org/user/shandilyaharsh2001/practice/"
               className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >
@@ -113,6 +119,8 @@ function project() {
               Geeks for geeks Profile{' '}
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.interviewbit.com/profile/Shandilya-Harsh"
               className="bg-transparent   px-4 py-2 my-2  mx-auto border btnproj rounded-full text-center"
             >

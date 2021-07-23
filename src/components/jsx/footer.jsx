@@ -22,30 +22,38 @@ function Footer(props) {
         <img src={Footlogo} alt="logo" className="w-12 m-auto" />
         <h2 className="py-6">Leveling up one step at a time.</h2>
         <div className="footic flex flex-row justify-center pb-8 text-center">
-          <Link
-            to="https://www.facebook.com/harsh.shandilya.1"
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/harsh.shandilya.1"
             className="  border rounded-full px-2 fontic"
           >
             <i className="fab fa-facebook-f  "></i>
-          </Link>
-          <Link
-            to="https://www.instagram.com/shandilya_00007/"
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/shandilya_00007/"
             className="  border rounded-full px-1.5 fontic"
           >
             <i className="fab fa-instagram  "></i>
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/harsh-shandilya/"
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/harsh-shandilya/"
             className="  border rounded-full px-1.5 fontic"
           >
             <i className="fab fa-linkedin-in "></i>
-          </Link>
-          <Link
-            to="https://github.com/ShandilyaHarsh"
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/ShandilyaHarsh"
             className="  border rounded-full px-1.5 fontic"
           >
             <i className="fab fa-github "></i>
-          </Link>
+          </a>
         </div>
         <h2 className="pb-4 text-md last">
           Made with <i className="fas fa-heart "></i>{' '}

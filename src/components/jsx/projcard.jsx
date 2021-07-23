@@ -22,6 +22,8 @@ function Projcard({ wlin,im, txt1, subt1, subt2, btn1, btn2 }) {
           </figcaption>
           <span>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={wlin}
               className="bg-transparent mr-4  px-4 py-2 border btnproj rounded-full text-center"
             >
