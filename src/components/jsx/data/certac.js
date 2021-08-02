@@ -11,7 +11,7 @@ const certac = [
   {
     title: 'GFG Coding contest',
     desc:
-      'Secured a position in top 100 out of 7000 participants in coding round held by Geeks for Geeks.',
+      'Secured a position in top 100 out of 3000+ participants in coding round held by Geeks for Geeks.',
     ims: im1,
   },
   {
